@@ -17,5 +17,5 @@ func GetUTFLength(input []byte) (int, error) {
 }
 
 func main() {
-	fmt.Println(GetUTFLength([]byte("山")))
+	fmt.Println(GetUTFLength([]byte("yjphby")))
 }
